@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7828363-9882-4b9c-8bdb-5bf22b3fc783" name="Default Changelist" comment="" />
+    <list default="true" id="e7828363-9882-4b9c-8bdb-5bf22b3fc783" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapSection/MapSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapSection/MapSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapSection/MapSectionView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableSection/TableSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableSection/TableSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableSection/TableSectionView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContentView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContentView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1a2uAC5u9NNALTDS7ROknzDjQFC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,8 +40,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/TableSection" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MO\Documents\Projekty_Web\AccordionMap\src\components\TableSection" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -46,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585945864017</updated>
-      <workItem from="1585945865510" duration="2038000" />
+      <workItem from="1585945865510" duration="6969000" />
     </task>
     <servers />
   </component>
@@ -54,21 +83,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1585948048563">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1585953639920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585948048563" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1585948048563">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585953639920" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1585953639920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585948048563" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1585948048563">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585953639920" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1585953639919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585948048563" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1585948048563">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585953639919" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1585953639920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585948048563" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585953639920" />
   </component>
 </project>
