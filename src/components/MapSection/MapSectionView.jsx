@@ -28,7 +28,7 @@ const MapSectionView = ({onChangeSection, openedSection}) => {
                 </h5>
             </CardHeader>
             <Collapse isOpen={openedSection === 'Map Section'}>
-                <CardBody>
+                <CardBody className="map-section__card">
                     <div id="map"></div>
                 </CardBody>
             </Collapse>

@@ -23,6 +23,16 @@ class MapSection extends React.Component {
             zoom: 9,
             attributionControl: false
         });
+        this.Map.on('click', this.onAddMarker.bind(this));
+    }
+
+    onAddMarker(e) {
+
+        // const el = document.createElement('div');
+        // el.className = 'marker';
+
+        const marker = new mapboxgl.Marker().setLngLat([e.lngLat.lng, e.lngLat.lat]).addTo(this.Map);
+        console.log(marker);
     }
 
     render() {

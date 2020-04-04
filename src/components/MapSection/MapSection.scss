@@ -1,8 +1,35 @@
 .map-section {
 
+  &__card {
+    position: relative;
+    #map {
+      width: 100%;
+      height: 60vh;
+      overflow: hidden;
+      .mapboxgl-canvas-container {
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        position: relative;
+        .mapboxgl-canvas {
+          position:absolute;
+          width: 100%;
+          height: 60vh;
+          overflow: hidden;
+        }
+      }
+    }
+  }
 }
 
-#map {
-  width: 100%;
-  height: 60vh;
+.mapboxgl-marker {
+  position: absolute;
+}
+
+.marker {
+  background-image: url('https://secure.webtoolhub.com/static/resources/icons/set101/1dc0e500.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
