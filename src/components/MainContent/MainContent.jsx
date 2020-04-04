@@ -3,11 +3,12 @@ import MainContentView from './MainContentView';
 
 class MainContent extends React.Component {
     state = {
-        openedSection: ""
+        openedSection: 'Map Section'
     };
 
     onChangeSection = (sectionName) => {
-        this.setState({openedSection:sectionName});
+        const sectionNameValue = sectionName === this.state.openedSection ? '' : sectionName;
+        this.setState({openedSection:sectionNameValue});
     };
 
     render() {

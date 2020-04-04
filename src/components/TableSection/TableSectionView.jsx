@@ -15,7 +15,7 @@ const TableSectionView = ({onChangeSection, openedSection}) => {
                         aria-expanded={openedSection === 'Map Section'}
                         className="collapsed"
                         data-parent="#accordion"
-                        href=""
+                        href="#"
                         id="collapseOne"
                         onClick={e => {
                             e.preventDefault();

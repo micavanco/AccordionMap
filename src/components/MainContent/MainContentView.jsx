@@ -9,7 +9,7 @@ const MainContentView = ({onChangeSection, openedSection}) => {
     <div className="main-content">
         <h1>AccordionMap</h1>
         <div aria-multiselectable={true} id="accordion" role="tablist" className="main-content__accordion">
-            <Card>
+            <Card className="main-content__accordion__card">
                 <MapSection onChangeSection={onChangeSection} openedSection={openedSection}/>
                 <TableSection onChangeSection={onChangeSection} openedSection={openedSection}/>
             </Card>

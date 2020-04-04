@@ -6,5 +6,8 @@
 
   &__accordion {
     width: 90%;
+    &__card {
+      max-height: 80vh;
+    }
   }
 }
