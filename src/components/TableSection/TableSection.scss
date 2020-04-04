@@ -1,5 +1,18 @@
 .table-section {
+  overflow: auto;
+  &__header > a > i {
+    float: right;
+  }
+
   .table td, .table th {
     vertical-align: middle;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .table-section {
+    .table td, .table th {
+      padding: 0.35rem;
+    }
   }
 }

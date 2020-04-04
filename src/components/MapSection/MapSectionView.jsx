@@ -9,23 +9,23 @@ import {
 const MapSectionView = ({onChangeSection, openedSection}) => {
     return (
         <div className="map-section">
-            <CardHeader className="card-collapse" id="headingOne" role="tab">
-                <h5 className="mb-0 panel-title">
-                    <a
-                        aria-expanded={openedSection === 'Map Section'}
-                        className="collapsed"
-                        data-parent="#accordion"
-                        href="#"
-                        id="collapseOne"
+            <CardHeader className="card-collapse map-section__header"
+                        role="tab"
                         onClick={e => {
                             e.preventDefault();
                             onChangeSection('Map Section')
                         }}
+            >
+                    <a
+                        aria-expanded={openedSection === 'Map Section'}
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        className="mb-0 panel-title collapsed"
+                        href="#"
                     >
-                        Map Section{" "}
-                        <i className="nc-icon nc-minimal-down" />
+                        Map Section
+                        <i className="now-ui-icons arrows-1_minimal-down"></i>
                     </a>
-                </h5>
             </CardHeader>
             <Collapse isOpen={openedSection === 'Map Section'}>
                 <CardBody className="map-section__card">

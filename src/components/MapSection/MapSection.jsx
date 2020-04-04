@@ -9,9 +9,6 @@ class MapSection extends React.Component {
         super(params);
 
         this.Map = null;
-        this.state = {
-            updateMap: true
-        };
     }
 
     componentDidMount() {
@@ -31,7 +28,6 @@ class MapSection extends React.Component {
             draggable: true
         }).setLngLat([e.lngLat.lng, e.lngLat.lat]).addTo(this.Map);
         this.props.onAddMarker(marker);
-        console.log(marker);
     }
 
     render() {
