@@ -6,7 +6,7 @@ import {
     Collapse
 } from "reactstrap";
 
-const TableSectionView = ({onChangeSection, openedSection, markers}) => {
+const TableSectionView = ({onChangeSection, openedSection, markers, onMarkerRemove}) => {
     return (
         <div className="table-section">
             <CardHeader className="card-collapse" id="headingOne" role="tab">
@@ -42,11 +42,16 @@ const TableSectionView = ({onChangeSection, openedSection, markers}) => {
                             {markers.map((marker, index) => (
                                 <tr key={marker._pos.x}>
                                     <td className="text-center">{index}</td>
-                                    <td>{marker._lngLat.lng}</td>
-                                    <td>{marker._lngLat.lat}</td>
+                                    <td>{marker._lngLat.lng.toFixed(5)}</td>
+                                    <td>{marker._lngLat.lat.toFixed(5)}</td>
                                     <td className="td-actions">
-                                        <button type="button" rel="tooltip" data-placement="left" title="Remove item"
-                                                className="btn btn-neutral btn-just-icon">
+                                        <button type="button"
+                                                rel="tooltip"
+                                                data-placement="left"
+                                                title="Remove item"
+                                                className="btn btn-neutral btn-just-icon"
+                                                onClick={() => onMarkerRemove(marker)}
+                                        >
                                             <i className="now-ui-icons ui-1_simple-remove"></i>
                                         </button>
                                     </td>

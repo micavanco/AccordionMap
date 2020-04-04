@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainContent/MainContentView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContent/MainContentView.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapSection/MapSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapSection/MapSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapSection/MapSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapSection/MapSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TableSection/TableSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableSection/TableSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TableSection/TableSectionView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableSection/TableSectionView.jsx" afterDir="false" />
     </list>
@@ -67,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585945864017</updated>
       <workItem from="1585945865510" duration="10656000" />
-      <workItem from="1585995821387" duration="18061000" />
+      <workItem from="1585995821387" duration="19814000" />
     </task>
     <task id="LOCAL-00001" summary="feat(components): add Now UI Kit, Map Section and Table section components">
       <created>1585953759420</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586031619989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(table-section): add table and populated it with data">
+      <created>1586034344203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586034344203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +113,8 @@
     <MESSAGE value="feat(sections): add logic to switch between sections" />
     <MESSAGE value="feat(sections): add mapbox and updated project" />
     <MESSAGE value="feat(Map-section): fix setting markups" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Map-section): fix setting markups" />
+    <MESSAGE value="feat(table-section): add table and populated it with data" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(table-section): add table and populated it with data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1586031613792">

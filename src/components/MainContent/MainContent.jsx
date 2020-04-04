@@ -17,12 +17,21 @@ class MainContent extends React.Component {
         this.setState({markers});
     };
 
+    onMarkerRemove = marker => {
+        const markers = this.state.markers.filter(element =>
+            element._pos.x !== marker._pos.x && element._pos.y !== marker._pos.y
+        );
+        marker.remove();
+        this.setState({markers});
+    };
+
     render() {
         return (
             <MainContentView onChangeSection={this.onChangeSection.bind(this)}
                              openedSection={this.state.openedSection}
                              markers={this.state.markers}
                              onAddMarker={this.onAddMarker.bind(this)}
+                             onMarkerRemove={this.onMarkerRemove.bind(this)}
             />
         )
     }
