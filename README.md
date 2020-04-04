@@ -1,6 +1,23 @@
 # AccordionMap
 Recruiting app with main content based on accordion UI element. Accordion consists of two tabs: first contains Mapbox with OpenStreetMaps that has option to add markups, second contains table with list of added markups to map.
 
+#### Tech stack 
+React + Mapbox GL JS + Creative Tim Now UI Kit
+
+## Screenshots
+### Map
+![alt text](https://raw.githubusercontent.com/micavanco/AccordionMap/master/map1.png)
+
+### Markers Table
+![alt text](https://raw.githubusercontent.com/micavanco/AccordionMap/master/map2.png)
+
+### Iphone 5 screen
+![alt text](https://raw.githubusercontent.com/micavanco/AccordionMap/master/map3.png)
+
+## Nucleo Error
+
+In case of not found font inside `_nucleo-outline.scss` change routes from `../fonts/nucleo-outline.eot` to `../../fonts/nucleo-outline.eot` etc.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,7 +54,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Nucleo Error
-
-In case of not found font inside `_nucleo-outline.scss` change routes from `../fonts/nucleo-outline.eot` to `../../fonts/nucleo-outline.eot` 

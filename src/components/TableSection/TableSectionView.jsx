@@ -44,10 +44,10 @@ const TableSectionView = ({onChangeSection, openedSection, markers, onMarkerRemo
                                     <td className="text-center">{index}</td>
                                     <td>{marker._lngLat.lng.toFixed(5)}</td>
                                     <td>{marker._lngLat.lat.toFixed(5)}</td>
-                                    <td className="td-actions">
+                                    <td className="td-actions text-right">
                                         <button type="button"
                                                 rel="tooltip"
-                                                data-placement="left"
+                                                data-placement="right"
                                                 title="Remove marker"
                                                 className="btn btn-neutral btn-just-icon"
                                                 onClick={() => onMarkerRemove(marker)}
