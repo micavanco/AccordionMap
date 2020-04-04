@@ -1,6 +1,9 @@
 # AccordionMap
 Recruiting app with main content based on accordion UI element. Accordion consists of two tabs: first contains Mapbox with OpenStreetMaps that has option to add markups, second contains table with list of added markups to map.
 
+#### Deploy
+https://micavanco.github.io/AccordionMap
+
 #### Tech stack 
 React + Mapbox GL JS + Creative Tim Now UI Kit
 
