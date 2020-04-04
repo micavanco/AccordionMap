@@ -1,34 +1,33 @@
 import React from "react";
 import "./MapSection.scss";
 import {
-    Card,
     CardHeader,
     CardBody,
-    Collapse,
+    Collapse
 } from "reactstrap";
 
-const MapSectionView = props => {
+const MapSectionView = ({onChangeSection, openedSection}) => {
     return (
-        <Card className="no-transition">
+        <div>
             <CardHeader className="card-collapse" id="headingOne" role="tab">
                 <h5 className="mb-0 panel-title">
                     <a
-                        // aria-expanded={collapses.includes(1)}
+                        aria-expanded={openedSection === 'Map Section'}
                         className="collapsed"
                         data-parent="#accordion"
-                        href="#pablo"
+                        href=""
                         id="collapseOne"
-                        // onClick={e => {
-                        //     e.preventDefault();
-                        //     changeCollapse(1);
-                        // }}
+                        onClick={e => {
+                            e.preventDefault();
+                            onChangeSection('Map Section')
+                        }}
                     >
-                        Default Collapsible Item 1{" "}
+                        Map Section{" "}
                         <i className="nc-icon nc-minimal-down" />
                     </a>
                 </h5>
             </CardHeader>
-            <Collapse>
+            <Collapse isOpen={openedSection === 'Map Section'}>
                 <CardBody>
                     Anim pariatur cliche reprehenderit, enim eiusmod high life
                     accusamus terry richardson ad squid. 3 wolf moon officia aute,
@@ -43,7 +42,7 @@ const MapSectionView = props => {
                     VHS.
                 </CardBody>
             </Collapse>
-        </Card>
+        </div>
     );
 };
 

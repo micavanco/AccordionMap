@@ -2,16 +2,17 @@ import React from "react";
 import "./MainContent.scss";
 import MapSection from "../MapSection/MapSection";
 import TableSection from "../TableSection/TableSection";
+import {Card} from "reactstrap";
 
-const MainContentView = props => {
+const MainContentView = ({onChangeSection, openedSection}) => {
   return (
     <div className="main-content">
         <h1>AccordionMap</h1>
-        <div id="acordeon">
-            <div aria-multiselectable={true} id="accordion" role="tablist">
-                <MapSection/>
-                <TableSection/>
-            </div>
+        <div aria-multiselectable={true} id="accordion" role="tablist" className="main-content__accordion">
+            <Card>
+                <MapSection onChangeSection={onChangeSection} openedSection={openedSection}/>
+                <TableSection onChangeSection={onChangeSection} openedSection={openedSection}/>
+            </Card>
         </div>
     </div>
   );

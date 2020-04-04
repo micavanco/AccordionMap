@@ -1,34 +1,33 @@
 import React from "react";
 import "./TableSection.scss";
 import {
-    Card,
     CardHeader,
     CardBody,
     Collapse
 } from "reactstrap";
 
-const TableSectionView = props => {
+const TableSectionView = ({onChangeSection, openedSection}) => {
     return (
-        <Card className="no-transition">
+        <div>
             <CardHeader className="card-collapse" id="headingOne" role="tab">
                 <h5 className="mb-0 panel-title">
                     <a
-                        // aria-expanded={collapses.includes(2)}
+                        aria-expanded={openedSection === 'Map Section'}
                         className="collapsed"
                         data-parent="#accordion"
-                        href="#pablo"
+                        href=""
                         id="collapseOne"
-                        // onClick={e => {
-                        //     e.preventDefault();
-                        //     changeCollapse(2);
-                        // }}
+                        onClick={e => {
+                            e.preventDefault();
+                            onChangeSection('Table Section')
+                        }}
                     >
-                        Default Collapsible Item 1{" "}
+                        Table Section{" "}
                         <i className="nc-icon nc-minimal-down" />
                     </a>
                 </h5>
             </CardHeader>
-            <Collapse>
+            <Collapse isOpen={openedSection === 'Table Section'}>
                 <CardBody>
                     Anim pariatur cliche reprehenderit, enim eiusmod high life
                     accusamus terry richardson ad squid. 3 wolf moon officia aute,
@@ -43,7 +42,7 @@ const TableSectionView = props => {
                     VHS.
                 </CardBody>
             </Collapse>
-        </Card>
+        </div>
     );
 };
 
