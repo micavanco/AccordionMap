@@ -5,7 +5,10 @@ class TableSection extends React.Component {
 
     render() {
         return (
-            <TableSectionView onChangeSection={this.props.onChangeSection} openedSection={this.props.openedSection}/>
+            <TableSectionView onChangeSection={this.props.onChangeSection}
+                              openedSection={this.props.openedSection}
+                              markers={this.props.markers}
+            />
         )
     }
 }

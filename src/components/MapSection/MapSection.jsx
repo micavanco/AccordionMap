@@ -27,11 +27,10 @@ class MapSection extends React.Component {
     }
 
     onAddMarker(e) {
-
-        // const el = document.createElement('div');
-        // el.className = 'marker';
-
-        const marker = new mapboxgl.Marker().setLngLat([e.lngLat.lng, e.lngLat.lat]).addTo(this.Map);
+        const marker = new mapboxgl.Marker({
+            draggable: true
+        }).setLngLat([e.lngLat.lng, e.lngLat.lat]).addTo(this.Map);
+        this.props.onAddMarker(marker);
         console.log(marker);
     }
 

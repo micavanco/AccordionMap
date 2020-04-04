@@ -13,7 +13,8 @@ class MainContent extends React.Component {
     };
 
     onAddMarker = marker => {
-
+        const markers = [...this.state.markers, marker];
+        this.setState({markers});
     };
 
     render() {

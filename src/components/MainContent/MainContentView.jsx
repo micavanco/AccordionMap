@@ -10,7 +10,7 @@ const MainContentView = ({onChangeSection, openedSection, markers, onAddMarker})
         <h1>AccordionMap</h1>
         <div aria-multiselectable={true} id="accordion" role="tablist" className="main-content__accordion">
             <Card className="main-content__accordion__card">
-                <MapSection onChangeSection={onChangeSection} openedSection={openedSection} markers={markers} onAddMarker={onAddMarker}/>
+                <MapSection onChangeSection={onChangeSection} openedSection={openedSection} onAddMarker={onAddMarker}/>
                 <TableSection onChangeSection={onChangeSection} openedSection={openedSection} markers={markers}/>
             </Card>
         </div>
